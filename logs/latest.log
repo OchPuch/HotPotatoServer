@@ -1,0 +1,315 @@
+[16:59:50] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:59:52] [ServerMain/INFO]: Loaded 1174 recipes
+[16:59:52] [ServerMain/INFO]: Loaded 1271 advancements
+[16:59:53] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[16:59:53] [Server thread/WARN]: ****************************
+[16:59:53] [Server thread/WARN]: YOU ARE RUNNING THIS SERVER AS AN ADMINISTRATIVE OR ROOT USER. THIS IS NOT ADVISED.
+[16:59:53] [Server thread/WARN]: YOU ARE OPENING YOURSELF UP TO POTENTIAL RISKS WHEN DOING THIS.
+[16:59:53] [Server thread/WARN]: FOR MORE INFORMATION, SEE https://madelinemiller.dev/blog/root-minecraft-server/
+[16:59:53] [Server thread/WARN]: ****************************
+[16:59:53] [Server thread/INFO]: Loading properties
+[16:59:53] [Server thread/INFO]: This server is running Purpur version git-Purpur-2176 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 6b1ee98 on HEAD)
+[16:59:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:59:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:59:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 3 worker threads, and gen parallelism of 3 threads
+[16:59:56] [Server thread/WARN]: [Pufferfish] SIMD operations are available for your server, but are not configured!
+[16:59:56] [Server thread/WARN]: [Pufferfish] To enable additional optimizations, add "--add-modules=jdk.incubator.vector" to your startup flags, BEFORE the "-jar".
+[16:59:56] [Server thread/WARN]: [Pufferfish] If you have already added this flag, then SIMD operations are not supported on your JVM or CPU.
+[16:59:56] [Server thread/WARN]: [Pufferfish] Debug: Java: 21.0.3, test run: true
+[16:59:56] [Server thread/INFO]: Default game type: SURVIVAL
+[16:59:56] [Server thread/INFO]: Generating keypair
+[16:59:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:59:56] [Server thread/INFO]: Using default channel type
+[16:59:56] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[16:59:56] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:59:56] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.66
+[16:59:56] [Server thread/INFO]: [HotPotato] Loading server plugin HotPotato v1.0-SNAPSHOT
+[16:59:56] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:59:56] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:59:56] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:59:56] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:59:56] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:59:56] [Server thread/INFO]: Preparing level "world"
+[16:59:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:59:59] [Server thread/INFO]: Time elapsed: 1728 ms
+[16:59:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:59:59] [Server thread/INFO]: Time elapsed: 40 ms
+[16:59:59] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:59:59] [Server thread/INFO]: Time elapsed: 29 ms
+[16:59:59] [Server thread/INFO]: [spark] Enabling spark v1.10.66
+[17:00:00] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[17:00:00] [Server thread/INFO]: [spark] Starting background profiler...
+[17:00:00] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[17:00:00] [Server thread/INFO]: [HotPotato] Enabling HotPotato v1.0-SNAPSHOT
+[17:00:00] [Server thread/INFO]: Config loaded: default
+[17:00:00] [Server thread/INFO]: Added config default
+[17:00:01] [Server thread/INFO]: Running delayed init tasks
+[17:00:01] [Server thread/INFO]: Done (7.354s)! For help, type "help"
+[17:02:32] [User Authenticator #0/INFO]: UUID of player OchPuch is 56dff550-1cef-3a20-9d37-68dc6c060bfb
+[17:02:33] [Server thread/INFO]: OchPuch joined the game
+[17:02:33] [Server thread/INFO]: OchPuch[/127.0.0.1:3571] logged in with entity id 195 at ([world]-249.36468807732697, 82.0, 15.300000011920929)
+[17:08:40] [Server thread/INFO]: OchPuch issued server command: /startgame
+[17:08:40] [Server thread/ERROR]: Creating tag data 1716991720667
+[17:08:40] [Server thread/ERROR]: Creating item FEATHER without game id. It will never dispose.
+[17:08:40] [Server thread/INFO]: Creating Items instance with TagData: 1716991720667
+[17:08:40] [Server thread/INFO]: game 1716991720667 state changed to PreparingGame
+[17:08:40] [Server thread/ERROR]: Global disposing lobby items
+[17:08:40] [Server thread/ERROR]: Preparing players
+[17:08:40] [Server thread/INFO]: §aИгра начинается!
+[17:08:40] [Server thread/ERROR]: Blocks give
+[17:08:41] [Server thread/INFO]: §a4...
+[17:08:41] [Server thread/ERROR]: Could not pass event GameSecondPassed to HotPotato v1.0-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at org.ccg.hotpotato.Tag.GameHandlers.TagTntHandler.onSecond(TagTntHandler.java:63) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:git-Purpur-2176]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:617) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Tag.TagGame$1.onSecond(TagGame.java:44) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Utils.Cooldown.ServerCooldown$1.run(ServerCooldown.java:22) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1679) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1558) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1246) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+[17:08:42] [Server thread/INFO]: §a3...
+[17:08:42] [Server thread/ERROR]: Could not pass event GameSecondPassed to HotPotato v1.0-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at org.ccg.hotpotato.Tag.GameHandlers.TagTntHandler.onSecond(TagTntHandler.java:63) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:git-Purpur-2176]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:617) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Tag.TagGame$1.onSecond(TagGame.java:44) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Utils.Cooldown.ServerCooldown$1.run(ServerCooldown.java:22) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1679) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1558) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1246) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+[17:08:43] [Server thread/INFO]: §a2...
+[17:08:43] [Server thread/ERROR]: Could not pass event GameSecondPassed to HotPotato v1.0-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at org.ccg.hotpotato.Tag.GameHandlers.TagTntHandler.onSecond(TagTntHandler.java:63) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:git-Purpur-2176]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:617) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Tag.TagGame$1.onSecond(TagGame.java:44) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Utils.Cooldown.ServerCooldown$1.run(ServerCooldown.java:22) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1679) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1558) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1246) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+[17:08:44] [Server thread/INFO]: §a1...
+[17:08:44] [Server thread/ERROR]: Could not pass event GameSecondPassed to HotPotato v1.0-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at org.ccg.hotpotato.Tag.GameHandlers.TagTntHandler.onSecond(TagTntHandler.java:63) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:git-Purpur-2176]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:617) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Tag.TagGame$1.onSecond(TagGame.java:44) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Utils.Cooldown.ServerCooldown$1.run(ServerCooldown.java:22) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1679) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1558) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1246) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+[17:08:45] [Server thread/INFO]: §a0...
+[17:08:45] [Server thread/ERROR]: Could not pass event GameSecondPassed to HotPotato v1.0-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at org.ccg.hotpotato.Tag.GameHandlers.TagTntHandler.onSecond(TagTntHandler.java:63) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:git-Purpur-2176]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:617) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Tag.TagGame$1.onSecond(TagGame.java:44) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Utils.Cooldown.ServerCooldown$1.run(ServerCooldown.java:22) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1679) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1558) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1246) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+[17:08:45] [Server thread/INFO]: game 1716991720667 state changed to Running
+[17:08:46] [Server thread/INFO]: game 1716991720667 state changed to Ending
+[17:08:46] [Server thread/ERROR]: Total dispose items count on game End 0
+[17:08:46] [Server thread/INFO]: Disposing sound
+[17:08:46] [Server thread/INFO]: Disposing text
+[17:08:46] [Server thread/INFO]: Disposing bossbar
+[17:08:46] [Server thread/INFO]: Disposing coloring
+[17:08:46] [Server thread/ERROR]: Disposing pickaxe
+[17:13:29] [Server thread/INFO]: OchPuch issued server command: /startgame
+[17:13:29] [Server thread/ERROR]: Creating tag data 1716992009528
+[17:13:29] [Server thread/ERROR]: Creating item FEATHER without game id. It will never dispose.
+[17:13:29] [Server thread/INFO]: Creating Items instance with TagData: 1716992009528
+[17:13:29] [Server thread/INFO]: game 1716992009528 state changed to PreparingGame
+[17:13:29] [Server thread/ERROR]: Global disposing lobby items
+[17:13:29] [Server thread/ERROR]: Preparing players
+[17:13:29] [Server thread/INFO]: §aИгра начинается!
+[17:13:29] [Server thread/ERROR]: Blocks give
+[17:13:30] [Server thread/INFO]: §a4...
+[17:13:30] [Server thread/ERROR]: Could not pass event GameSecondPassed to HotPotato v1.0-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at org.ccg.hotpotato.Tag.GameHandlers.TagTntHandler.onSecond(TagTntHandler.java:63) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:git-Purpur-2176]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:617) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Tag.TagGame$1.onSecond(TagGame.java:44) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Utils.Cooldown.ServerCooldown$1.run(ServerCooldown.java:22) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1679) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1558) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1246) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+[17:13:31] [Server thread/INFO]: §a3...
+[17:13:31] [Server thread/ERROR]: Could not pass event GameSecondPassed to HotPotato v1.0-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at org.ccg.hotpotato.Tag.GameHandlers.TagTntHandler.onSecond(TagTntHandler.java:63) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:git-Purpur-2176]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:617) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Tag.TagGame$1.onSecond(TagGame.java:44) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Utils.Cooldown.ServerCooldown$1.run(ServerCooldown.java:22) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1679) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1558) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1246) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+[17:13:32] [Server thread/INFO]: §a2...
+[17:13:32] [Server thread/ERROR]: Could not pass event GameSecondPassed to HotPotato v1.0-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at org.ccg.hotpotato.Tag.GameHandlers.TagTntHandler.onSecond(TagTntHandler.java:63) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:git-Purpur-2176]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:617) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Tag.TagGame$1.onSecond(TagGame.java:44) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Utils.Cooldown.ServerCooldown$1.run(ServerCooldown.java:22) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1679) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1558) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1246) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+[17:13:33] [Server thread/INFO]: §a1...
+[17:13:33] [Server thread/ERROR]: Could not pass event GameSecondPassed to HotPotato v1.0-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at org.ccg.hotpotato.Tag.GameHandlers.TagTntHandler.onSecond(TagTntHandler.java:63) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:git-Purpur-2176]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:617) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Tag.TagGame$1.onSecond(TagGame.java:44) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Utils.Cooldown.ServerCooldown$1.run(ServerCooldown.java:22) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1679) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1558) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1246) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+[17:13:34] [Server thread/INFO]: §a0...
+[17:13:34] [Server thread/ERROR]: Could not pass event GameSecondPassed to HotPotato v1.0-SNAPSHOT
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "java.util.HashMap.get(Object)" is null
+	at org.ccg.hotpotato.Tag.GameHandlers.TagTntHandler.onSecond(TagTntHandler.java:63) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at com.destroystokyo.paper.event.executor.MethodHandleEventExecutor.execute(MethodHandleEventExecutor.java:40) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at co.aikar.timings.TimedEventExecutor.execute(TimedEventExecutor.java:77) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:git-Purpur-2176]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperEventManager.callEvent(PaperEventManager.java:54) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.callEvent(PaperPluginManagerImpl.java:126) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:617) ~[purpur-api-1.20.4-R0.1-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Tag.TagGame$1.onSecond(TagGame.java:44) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.ccg.hotpotato.Utils.Cooldown.ServerCooldown$1.run(ServerCooldown.java:22) ~[HotPotato-1.0-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at org.bukkit.craftbukkit.v1_20_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:482) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1679) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:487) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1558) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1246) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:323) ~[purpur-1.20.4.jar:git-Purpur-2176]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+[17:13:34] [Server thread/INFO]: game 1716992009528 state changed to Running
+[17:13:35] [Server thread/INFO]: game 1716992009528 state changed to Ending
+[17:13:35] [Server thread/ERROR]: Total dispose items count on game End 0
+[17:13:35] [Server thread/INFO]: Disposing sound
+[17:13:35] [Server thread/INFO]: Disposing text
+[17:13:35] [Server thread/INFO]: Disposing bossbar
+[17:13:35] [Server thread/INFO]: Disposing coloring
+[17:13:35] [Server thread/ERROR]: Disposing pickaxe
+[17:16:47] [Server thread/INFO]: OchPuch was doomed to fall by Creeper
+[17:25:13] [Server thread/INFO]: OchPuch has made the advancement [Ice Bucket Challenge]
+[17:27:40] [Server thread/INFO]: OchPuch lost connection: Disconnected
+[17:27:40] [Server thread/INFO]: OchPuch left the game
+[17:27:43] [Server thread/INFO]: Stopping server
+[17:27:43] [Server thread/INFO]: [HotPotato] Disabling HotPotato v1.0-SNAPSHOT
+[17:27:43] [Server thread/INFO]: [spark] Disabling spark v1.10.66
+[17:27:43] [Server thread/INFO]: Saving players
+[17:27:43] [Server thread/INFO]: Saving worlds
+[17:27:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[17:27:43] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[17:27:43] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[17:27:43] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[17:27:44] [Server thread/INFO]: [ChunkHolderManager] Saved 131 block chunks, 94 entity chunks, 0 poi chunks in world 'world' in 0,92s
+[17:27:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[17:27:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[17:27:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[17:27:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[17:27:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[17:27:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 19 entity chunks, 0 poi chunks in world 'world_nether' in 0,01s
+[17:27:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[17:27:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[17:27:44] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[17:27:44] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[17:27:44] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[17:27:44] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,00s
+[17:27:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[17:27:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[17:27:44] [Server thread/INFO]: Flushing Chunk IO
+[17:27:44] [Server thread/INFO]: Closing Thread Pool
+[17:27:44] [Server thread/INFO]: Closing Server

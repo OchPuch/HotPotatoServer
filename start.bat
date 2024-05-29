@@ -1,0 +1,1 @@
+java -Xmx4G -jar purpur-1.20.4-2176.jar
